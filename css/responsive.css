@@ -1,0 +1,462 @@
+/*
+	laptop
+	min-width 980px to max-width 1199px
+*/
+@media screen and (max-width: 1199px){
+	.container{
+		width: 980px;
+	}
+	/* .hero{
+		background-position: -195px 1px;
+	} */
+	 .hero{
+		background: none;
+	 }
+	 .heromainsec{
+		justify-content: space-between;
+	 }
+	
+    
+}
+
+
+/*tablet
+	min-width 768px to max-width 979px
+*/
+
+@media screen and (max-width: 979px){
+	.container{
+		width: 768px;
+	}
+}
+
+
+
+/*mobile
+	min-width 320px to max-width 767px
+*/
+@media screen and (max-width: 767px){
+	.container{
+		width: 96%;
+	}
+    .hero{
+        background: none;
+    }
+	.logo{
+		text-align: center;
+		padding: 55px 0 0;
+	}
+	nav{
+		display: block;
+	}
+	nav ul li{
+		display: block;
+	}
+	nav ul li a span{
+		display: none;
+	}
+	nav ul li a{
+		font-size: 25px;
+		line-height: 47px;
+	}
+	.navcon h1{
+		font-size: 31px;
+	}
+	.navcon h2{
+		font-size: 23px;
+	}
+	.heromainsec{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	 .hpart1,.hpart2,.hpart3{
+		text-align: center;
+		padding: 0;
+	}
+	 .part1 h2{
+		font-size: 25px;
+	}
+	.part1 h3{
+		font-size: 22px;
+	}
+	.part2{
+		flex-wrap: wrap;
+	}
+	.p2sec1{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.sec4msec{
+		flex-wrap: wrap;
+	}
+	.s4p1,.s4p2{
+		width: 100%;
+		border:none
+	}
+	.sec5msec{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.s5p1,.s5p2,.s5p3{
+		width: 100%;
+		padding-bottom: 40px;
+		margin: 0;
+	}
+	article h4{
+		font-size: 17px;
+	}
+	.footer1 h3{
+		font-size: 23px;
+	}
+	.footer1 h4{
+		font-size: 16px;
+	}
+	.footer2{
+		/* flex-wrap: wrap; */
+		flex-direction: column;
+		justify-content: center;
+	}
+	.footer2 input{
+		margin-right: 0;
+		margin-bottom: 10px;
+		width: 280px;
+	}
+	.footer2 a{
+		text-align: center;
+	}
+	.lastnav{
+		/* flex-wrap: wrap;
+		justify-content: center; */
+		display: block;
+	}
+	.logolast{
+		padding-bottom: 0;
+		text-align: center;
+	}
+	.lastnav ul{
+		padding: 0;
+	}
+	.lastnav ul li {
+		display: block;
+		text-align: center;
+	}
+	.lastnav ul li a {
+		line-height: 40px;
+	}
+	.lastnav ul li a span{
+		display: none;
+	}
+	.lastline p{
+		padding: 0;
+		font-size: 11px;
+		text-align: center;
+	}
+
+
+}
+
+/* classes */
+/*
+	laptop
+	min-width 980px to max-width 1199px
+*/
+@media screen and (max-width: 1199px){
+	.container{
+		width: 980px;
+	}
+}
+
+
+
+/*tablet
+	min-width 768px to max-width 979px
+*/
+
+@media screen and (max-width: 979px){
+	.container{
+		width: 768px;
+	}
+    .container-classes {
+        width: 768px;
+    }
+}
+
+
+
+/*mobile
+	min-width 320px to max-width 767px
+*/
+@media screen and (max-width: 767px){
+	.container{
+		width: 96%;
+	}
+	.container-classes {
+        width: 320px;
+    }
+	.class-flex{
+		flex-wrap: wrap;
+	}
+	.table {
+		border-bottom: 2px solid #b9b9b9;
+		border-right: none;
+		width: 100%;
+		padding: 58px 15px 70px 18px
+	}
+	.time p {
+    	padding: 35px 104px 30px 43px;
+	}
+	.container-classes h3{
+		font-size: 45px	;
+	}
+}
+/* ourgym */
+
+/*
+	laptop
+	min-width 980px to max-width 1199px
+*/
+@media screen and (max-width: 1199px){
+	.container{
+		width: 980px;
+	}
+}
+
+
+
+/*tablet
+	min-width 768px to max-width 979px
+*/
+
+@media screen and (max-width: 979px){
+	.container{
+		width: 768px;
+	}
+	.ourgym{
+		width: 768px;
+	}
+	.gymimg1,.gymimg2{
+		margin-right: 20px;
+	}
+	.gymsec2{
+		margin-bottom: 20px;
+	}
+}
+
+
+
+/*mobile
+	min-width 320px to max-width 767px
+*/
+@media screen and (max-width: 767px){
+	.container{
+		width: 96%;
+	}
+	.ourgym{
+		width: 320px;
+	}
+	.gymsec1 h2{
+		font-size: 45px;
+	}
+	.gymimg1,.gymimg2{
+		margin-right: 10px;
+	}
+	.gymsec2{
+		margin-bottom: 10px;
+	}
+	.gymsec2:last-child {
+		padding-bottom: 15px;
+	}
+}
+
+/* gallery */
+
+/*
+	laptop
+	min-width 980px to max-width 1199px
+*/
+@media screen and (max-width: 1199px){
+	.container{
+		width: 980px;
+	}
+}
+
+
+
+/*tablet
+	min-width 768px to max-width 979px
+*/
+
+@media screen and (max-width: 979px){
+	.container{
+		width: 768px;
+	}
+	.girlcon h4 {
+		font-size: 24px;
+		padding-bottom: 27px;
+	}
+	.girlcon {
+		height: 314.53px;
+		overflow: auto;
+	}
+	.inputfields{
+		display: flex;
+	}
+}
+
+
+
+/*mobile
+	min-width 320px to max-width 767px
+*/
+@media screen and (max-width: 767px){
+	.container{
+		width: 96%;
+	}
+	.girlimage {
+		padding-bottom: 10px;
+		padding-right: 0;
+	}
+	.bgirl{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	.space {
+		margin-left: 0px;
+		margin-top: 27px;
+	}
+	.social{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.socialcon2 p {
+		font-size: 13px;
+		padding-top: 10px;
+	}
+	.as{
+		flex-wrap: wrap;
+	}
+	.inputfields{
+		display: block;
+		text-align: center;
+	}
+	.inputfields input:first-child {
+		width: 100%;
+		margin-right: 0;
+	}
+	.inputfields input:last-child {
+		width: 100%;
+		/* margin-bottom: 22px; */
+	}
+	.lpoem p {
+		font-size: 17px;
+		line-height: 40px;
+		padding: 0 15px 50px 15px;
+	}
+	.spcon p {
+		font-size: 15px;
+		line-height: 24px;
+		padding-right: 0px;
+		text-align: justify;
+	}
+	.comment1 h4 {
+		font-size: 24px;
+		padding: 55px 0 45px;
+	}
+	.suz1 h5 {
+		font-size: 17px;
+	}
+	.suz1 p {
+		font-size: 13px;
+		line-height: 31px;
+	}
+	
+}
+/* contact */
+/*
+	laptop
+	min-width 980px to max-width 1199px
+*/
+@media screen and (max-width: 1199px){
+	.container{
+		width: 980px;
+	}
+}
+
+
+/* @media screen and (min-width: 500px) and (max-width: 1000px){
+	body{
+		background-color: orange;
+	}
+} */
+
+/*tablet
+	min-width 768px to max-width 979px
+*/
+
+@media screen and (max-width: 979px){
+	.container{
+		width: 768px;
+	}
+	.container-classes {
+        width: 768px;
+    }
+	.detail1 span {
+		font-size: 20px;
+		padding-left: 0px;
+		display: flex;
+	}
+}
+
+
+
+/*mobile
+	min-width 320px to max-width 767px
+*/
+@media screen and (max-width: 767px){
+	.container{
+		width: 96%;
+	}
+	.container-classes {
+        width: 96%;
+    }
+	.contactform{
+		flex-wrap: wrap;
+		margin-bottom: 125px;
+	}
+	.form1 input,.form1 textarea{
+		width: 100%;
+	}
+	.form1{
+		display: inline-block;
+	}
+	.form2{
+		margin-left: 0;
+	}
+	.contact-header h4 {
+		font-size: 35px;
+		padding: 27px 0 32px;
+	}
+	.contact-header p {
+		font-size: 14px;
+		line-height: 27px;
+		padding-right: 0;
+		padding-bottom: 45px;
+	}
+	.form1>a>img{
+		width: 100px;
+		margin-bottom: 15px;
+	}
+	.form2 p {
+		font-size: 18px;
+		line-height: 34px;
+		padding-bottom: 16px;
+		text-align: justify;
+		padding-right: 0;
+	}
+	.detail1 span {
+        padding-left: 5px;
+        display: inline-block;
+        vertical-align: super;
+    }
+}
+
